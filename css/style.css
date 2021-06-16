@@ -1,0 +1,72 @@
+.estrelas input[type=radio]{
+	display: none;
+}
+
+.estrelas label i.fa:before{
+	content: '\f005';
+	color: #fc0;
+}
+
+.estrelas input[type=radio]:checked ~ label i.fa:before{
+	color: #ccc;
+}
+
+.mensagem_estrtela{
+	background: #EB3D26;
+	color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	height: 50px;
+	width: 40%;
+	position: absolute;
+	left: 45%;
+	top: 7%;
+}
+
+.mensagem_cadastrada{
+	background: #02E65D;
+	color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	height: 50px;
+	width: 40%;
+	position: absolute;
+	left: 45%;
+	top: 7%;
+}
+
+.mensagem_errado{
+	background: red;
+	color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	height: 50px;
+	width: 40%;
+	position: absolute;
+	left: 45%;
+	top: 7%;
+}
+
+.img_error{
+	width: 12%;
+	position: absolute;
+	left: 22%;
+}
+
+.img_sucesso{
+	width: 9%;
+	position: absolute;
+	left: 22%;
+}
+
+.img_errado{
+	width: 10%;
+	position: absolute;
+	left: 22%;
+}
+
+.p_msg, .p_sucesso, .p_errado{
+	position: absolute;
+	left: 38%;
+	top: 5%;
+}
